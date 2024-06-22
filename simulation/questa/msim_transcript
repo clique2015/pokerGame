@@ -1,0 +1,138 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do poker_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Hp\ foilo\ 9480m/Documents/db {C:/Users/Hp foilo 9480m/Documents/db/de0_nano_soc_baseline.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:01:13 on Jun 20,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Hp foilo 9480m/Documents/db" C:/Users/Hp foilo 9480m/Documents/db/de0_nano_soc_baseline.v 
+# -- Compiling module de0_nano_soc_baseline
+# 
+# Top level modules:
+# 	de0_nano_soc_baseline
+# End time: 16:01:13 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {C:/Users/Hp foilo 9480m/Documents/db/bank_test.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:01:33 on Jun 20,2024
+# vlog -reportprogress 300 -work work C:/Users/Hp foilo 9480m/Documents/db/bank_test.sv 
+# -- Compiling module bank_test
+# 
+# Top level modules:
+# 	bank_test
+# End time: 16:01:33 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Hp foilo 9480m/Documents/db/player_bank.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:01:33 on Jun 20,2024
+# vlog -reportprogress 300 -work work C:/Users/Hp foilo 9480m/Documents/db/player_bank.sv 
+# -- Compiling module player_bank
+# 
+# Top level modules:
+# 	player_bank
+# End time: 16:01:33 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.bank_test work.player_bank
+# vsim -gui -l msim_transcript work.bank_test work.player_bank 
+# Start time: 16:01:48 on Jun 20,2024
+# Loading sv_std.std
+# Loading work.bank_test
+# Loading work.player_bank
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'bank_test' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /bank_test/uut File: C:/Users/Hp foilo 9480m/Documents/db/player_bank.sv
+# Error loading design
+# End time: 16:01:48 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Hp foilo 9480m/Documents/db/bank_test.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:02:29 on Jun 20,2024
+# vlog -reportprogress 300 -work work C:/Users/Hp foilo 9480m/Documents/db/bank_test.sv 
+# ** Error: C:/Users/Hp foilo 9480m/Documents/db/bank_test.sv(3): (vlog-2163) Macro `module is undefined.
+# ** Error: (vlog-13069) C:/Users/Hp foilo 9480m/Documents/db/bank_test.sv(3): near ";": syntax error, unexpected ';'.
+# ** Error: C:/Users/Hp foilo 9480m/Documents/db/bank_test.sv(3): (vlog-13205) Syntax error found in the scope following 'bank_test'. Is there a missing '::'?
+# End time: 16:02:29 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Hp foilo 9480m/Documents/db/player_bank.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:02:29 on Jun 20,2024
+# vlog -reportprogress 300 -work work C:/Users/Hp foilo 9480m/Documents/db/player_bank.sv 
+# -- Compiling module player_bank
+# 
+# Top level modules:
+# 	player_bank
+# End time: 16:02:29 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.bank_test work.player_bank
+# vsim -gui -l msim_transcript work.bank_test work.player_bank 
+# Start time: 16:02:40 on Jun 20,2024
+# Loading sv_std.std
+# Loading work.bank_test
+# Loading work.player_bank
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'bank_test' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /bank_test/uut File: C:/Users/Hp foilo 9480m/Documents/db/player_bank.sv
+# Error loading design
+# End time: 16:02:41 on Jun 20,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Hp foilo 9480m/Documents/db/bank_test.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:03:02 on Jun 20,2024
+# vlog -reportprogress 300 -work work C:/Users/Hp foilo 9480m/Documents/db/bank_test.sv 
+# -- Compiling module bank_test
+# 
+# Top level modules:
+# 	bank_test
+# End time: 16:03:02 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/Users/Hp foilo 9480m/Documents/db/player_bank.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:03:02 on Jun 20,2024
+# vlog -reportprogress 300 -work work C:/Users/Hp foilo 9480m/Documents/db/player_bank.sv 
+# -- Compiling module player_bank
+# 
+# Top level modules:
+# 	player_bank
+# End time: 16:03:02 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.bank_test work.player_bank
+# vsim -gui -l msim_transcript work.bank_test work.player_bank 
+# Start time: 16:03:12 on Jun 20,2024
+# Loading sv_std.std
+# Loading work.bank_test
+# Loading work.player_bank
+vlog -reportprogress 300 -work work {C:/Users/Hp foilo 9480m/Documents/db/player_bank.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:04:08 on Jun 20,2024
+# vlog -reportprogress 300 -work work C:/Users/Hp foilo 9480m/Documents/db/player_bank.sv 
+# -- Compiling module player_bank
+# 
+# Top level modules:
+# 	player_bank
+# End time: 16:04:08 on Jun 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.bank_test work.player_bank
+# End time: 16:04:20 on Jun 20,2024, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript work.bank_test work.player_bank 
+# Start time: 16:04:20 on Jun 20,2024
+# Loading sv_std.std
+# Loading work.bank_test
+# Loading work.player_bank
+add wave -position end  sim:/bank_test/counts
+add wave -position end  sim:/bank_test/clk
+add wave -position end  sim:/bank_test/reset
+add wave -position end  sim:/bank_test/enable
+add wave -position end  sim:/bank_test/enable_all
+add wave -position end  sim:/bank_test/sel
+add wave -position end  sim:/bank_test/data
+add wave -position end  sim:/bank_test/in_card
+add wave -position end  sim:/bank_test/card_reg
+add wave -position end  sim:/bank_test/chip_reg

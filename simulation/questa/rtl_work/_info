@@ -1,0 +1,80 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Hp foilo 9480m/Documents/db/simulation/questa
+vbank_test
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1718924582
+!i10b 1
+!s100 AAkM8oA[m=aIT^J2<4;D_1
+IdGMmEoo:oTBGL22H4g>]V3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 bank_test_sv_unit
+S1
+R0
+w1718924572
+8C:/Users/Hp foilo 9480m/Documents/db/bank_test.sv
+FC:/Users/Hp foilo 9480m/Documents/db/bank_test.sv
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1718924582.000000
+!s107 C:/Users/Hp foilo 9480m/Documents/db/bank_test.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Hp foilo 9480m/Documents/db/bank_test.sv|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vde0_nano_soc_baseline
+!s110 1718924473
+!i10b 1
+!s100 VZXUkn;:6;3]:lSSdofmR0
+IjQ_]B2?;3aLI7C:G[=Tn:2
+R2
+R0
+w1442264270
+8C:/Users/Hp foilo 9480m/Documents/db/de0_nano_soc_baseline.v
+FC:/Users/Hp foilo 9480m/Documents/db/de0_nano_soc_baseline.v
+L0 40
+R3
+r1
+!s85 0
+31
+!s108 1718924473.000000
+!s107 C:/Users/Hp foilo 9480m/Documents/db/de0_nano_soc_baseline.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hp foilo 9480m/Documents/db|C:/Users/Hp foilo 9480m/Documents/db/de0_nano_soc_baseline.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Users/Hp foilo 9480m/Documents/db}
+R5
+vplayer_bank
+R1
+!s110 1718924648
+!i10b 1
+!s100 AkzTik4IjFH1z6P?jTz=P3
+I9dEX4<OG6TRoAzKk7Am9>2
+R2
+!s105 player_bank_sv_unit
+S1
+R0
+w1718894913
+8C:/Users/Hp foilo 9480m/Documents/db/player_bank.sv
+FC:/Users/Hp foilo 9480m/Documents/db/player_bank.sv
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1718924648.000000
+!s107 C:/Users/Hp foilo 9480m/Documents/db/player_bank.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Hp foilo 9480m/Documents/db/player_bank.sv|
+!i113 1
+R4
+R5
